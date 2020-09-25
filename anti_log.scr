@@ -1,0 +1,16 @@
+!include("telemetry.scr"); /*We must conform to their engine.
+!include("Network.scr");   Otherwise it may not work. */
+sub main() {
+    get(prodServerLoc);
+    memalloc("DyingLightGame.exe", 4);
+}
+Set("NodosRegAcc", true)
+while(PLS.Enabled());
+{
+    do(set.CLR, "EU", "NA", "OC", "SW", "IL", "PL")
+}
+    for("LatencyThresholds" > "PLSP");
+}
+set("telemetry, PLSP, PLS", secured);
+return true;
+}
