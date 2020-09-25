@@ -1,4 +1,5 @@
-Zwyrafi-8 pre-cursor source.
+Zwyrafi-8 pre-cursor source. \\ THE FILES FOUND HERE ARE NOT FINISHED AND ARE BEING WORKED ON.
+
 
     This is a project designed to make Dying Light more convenient, and improve performance.
     This was originally created by VansKFC A.K.A Vans Or Lola-The-Kat.
