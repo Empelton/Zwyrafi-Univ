@@ -1,4 +1,5 @@
-//Minimize indentation to reduce byte-size.
+/*We need this for other scripts.
+Remember reduce indentation to improve size.*/
 
 !Character(s, s, s, s, s)
 
