@@ -1,0 +1,13 @@
+!include("DyingLightGame");
+INT_EXPORT = 1; //Normal
+INT_EXPORT = 3; // Very Low
+switch ("p_blur_on");
+{
+case buffer:
+    setBuffer(0 "RGBA_32")
+    break;
+
+default:
+setBuffer(16, "RGMA12_02_07")
+    break;
+}

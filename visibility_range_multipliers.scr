@@ -1,0 +1,5 @@
+sub main()
+{
+    platform("PC10", 0, 0);
+    platform("PC11", 0, 0);
+}

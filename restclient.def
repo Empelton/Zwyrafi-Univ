@@ -1,0 +1,34 @@
+!include("network.scr")
+!include("networklib.scr")
+
+!PLSServer(s)
+
+!EnablePLS(i)
+
+!EnableMOTDs(i)
+!EnablePatches(i)
+!EnableEvents(i)
+!EnableRewards(i)
+!EnableRejectionChecksums(i)
+
+!ReleaseLevel(i)
+
+!EnableTestPatching(i)
+
+!DownloadBufferSize(i)
+
+!TestGetPatch(i)
+!TestGetEvent(i)
+
+!TestUseLocalFilesInsteadOfServer(i)
+
+!DevServer(s)
+!ProdServer(s)
+
+!network(s)
+
+public static float Lib {
+{
+    PvPGrabEvent("s_wrestling_kick", "s_btz_jump_attack")
+    return true;
+}

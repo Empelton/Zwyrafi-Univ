@@ -1,0 +1,6 @@
+sub main()
+{
+    fix_all(typeSet("mesh"));
+    mesh("player_man_tpp_*.msh");
+    mesh("player_man_fpp_.*.msh");
+}
