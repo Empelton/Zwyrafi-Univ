@@ -1,3 +1,5 @@
+/*This is an anti-telemetry script done in a CS
+fashion that conforms to the Dying Light engine.*/
 sub main() {
 	telemetry_enabled(false)
 }
@@ -15,6 +17,6 @@ private float void(AntiPLS[] PLSCheck) {
 	{
 		do(getFlag (!isChecked);
 		return false;
-		throw NullPointerException;
+		throw null;
 	}
 }
